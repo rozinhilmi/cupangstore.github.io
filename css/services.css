@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background-image: url("../images/ikan.jpg");
+}
+.header {
+    display: inline-block;
+    width: 100%;
+    border-style: solid;
+    
+
+}
+.header img{
+    width: 250px;
+    margin-top: 50px;
+    margin: 50px;
+
+}
+.container{
+    width: 95%;
+    background-color: rgba(240, 240, 240,0.65);
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    
+}
+.top{
+    margin-top: -1.5%;
+    padding-top: 1.75cm;
+    padding-bottom: 0.75cm;
+}
+.top li{
+    display: inline;
+    margin: 1%;
+    margin-top: 1cm;
+    
+}
+.top li a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    
+}
+.top li a:hover{
+    color: rgb(255, 178, 34);
+}
+.footer{
+    width: 100%;
+    height: 1.5cm;
+    background-color: rgba(255, 211, 130,0.7);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.footer h1{
+    color: rgb(68, 68, 68);
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.middle{
+    width: 75%;
+    background-color: white;
+    overflow: auto;
+    float: left;
+    margin-bottom: 2cm;
+    margin-left: 12%;
+    box-shadow: 5px 5px 5px 5px  rgb(165, 164, 164);
+}
+.middle h1{
+    font-size: 35px;
+    margin : auto;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.box-item{  
+    background-color: white;
+    
+    width: 300px;
+    display: inline-flex;
+    margin-bottom: 4%;
+    border-style: solid;
+    padding: 3%;
+    
+}
+.box-item p{
+    
+    /* padding-top: 5%; */
+    color: rgb(59, 59, 59);
+    font-size: 15px;
+}
+.box-value-kiri{
+    width: 120%;
+    float: left;
+    
+}
+
+.box-value-kanan{
+    width: 40%;
+    float: left;
+    text-align: end;
+}
+
+.box-value-kiri img{
+   width: 200px;
+   /* padding-left: 20%; */
+
+   
+}
+ .box-value-kanan img{
+    width: 100px;
+    transition: 8s;
+    
+}
+.box-value-kanan:hover img{
+    transform: rotate(3600deg);
+
+    /* apabila disentuh kursor, maka item akan berputar 360 derajat */
+/* hover..apabila kursor ke arah item, maka item akan melakukan aksi seperti diatas */
+
+
+}
+.box-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+.cf:after {
+    clear: both;
+}
+

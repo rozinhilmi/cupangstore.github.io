@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ===================page-header============================= */
+body{
+    background-image: url("../images/ikan.jpg");
+}
+.header {
+    display: inline-block;
+    width: 100%;
+    border-style: solid;
+}
+.header img{
+    width: 250px;
+    margin-top: 50px;
+    margin: 50px;
+}
+.container{
+    width: 95%;
+    background-color: rgba(240, 240, 240,0.65);
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    
+}
+.top{
+    margin-top: -1.5%;
+    padding-top: 1.75cm;
+    padding-bottom: 0.75cm;
+}
+.top li{
+    display: inline;
+    margin: 1%;
+    margin-top: 1cm;
+    
+}
+.top li a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.top li a:hover{
+    color: rgb(255, 178, 34);
+}
+.container{
+    
+    background-color:rgba(245, 245, 245,0.8);
+    margin-bottom: 40px;
+    margin-left: 10%;
+    width: 78%;
+    overflow: hidden;
+}
+.payment-list{
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
+    height: 505px; 
+}
+.box-item{  
+    width: 400px;
+    float: left;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px  rgb(165, 164, 164);
+    
+    margin-left: 2cm;
+    font-size: 17px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    line-height: 30px;
+    transition: 1s;
+}
+.box-item a{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    font-weight: bold;
+}
+.box-item h1,p{
+    width: 100%;
+}
+.box-item h1 :hover{
+    color: orange;
+    transition: 1s;
+}
+.box-item img{
+    width: 100%;
+    height: 8cm;
+    transition: 2s;
+}
+.footer{
+    width: 100%;
+    height: 1.5cm;
+    background-color: rgba(255, 211, 130,0.7);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.footer h1{
+    color: rgb(68, 68, 68);
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+/* ===================bodyform============================= */
+.body-form {   
+    float: left;
+    display: block;
+    width: 380px;   
+    background-color:rgb(245, 245, 245);
+    margin-left: 2cm;
+    
+}
+.panel-heading{
+    border-top: 1px solid rgb(218, 217, 217);
+    border-left: 1px solid rgb(218, 217, 217);
+    border-right: 1px solid rgb(218, 217, 217);
+    margin-bottom: -5px;
+}
+.panel-heading h3{
+    margin-top: 3px;
+    font-size: x-large;
+    line-height: 80px;
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 59, 59);
+    font-weight: lighter;
+    
+    margin-bottom: -15px;
+}
+.panel-heading .atm{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 1.7cm;
+    margin-bottom: 5px;
+}
+
+.panel-form{
+    border-top: 1px solid rgb(218, 217, 217);
+    border-left: 1px solid rgb(218, 217, 217);
+    border-right: 1px solid rgb(218, 217, 217);
+    background-color: white;
+    margin-bottom: -15px;
+   
+}
+.panel-form .row {
+    margin-left: 15px;
+    margin-left: 5%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    /* display: inline; */
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(59, 59, 59);
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+  } 
+
+.form-control {
+  display: block;
+  margin-right: auto;
+  width: 75%;
+  height: 22px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.ganjel {
+  color: white;
+  user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-select:none;
+}
+/* ===================footer pada form================ */
+.panel-footer {
+    border-top: 1px solid rgb(218, 217, 217);
+    border-left: 1px solid rgb(218, 217, 217);
+    border-right: 1px solid rgb(218, 217, 217);
+    border-bottom: 1px solid rgb(218, 217, 217);
+
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.btn-warning {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-lg,
+.btn-group-lg > .btn {
+padding: 10px 16px;
+font-size: 18px;
+line-height: 1.3333333;
+border-radius: 6px;
+}
+
