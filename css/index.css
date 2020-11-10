@@ -1,106 +1,225 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-body{
-    background-image: url("../images/ikan.jpg");
-}
-.header {
-    display: inline-block;
-    width: 100%;
-    border-style: solid;
-}
-.header img{
-    width: 250px;
-    margin-top: 50px;
-    margin: 50px;
-}
-.container{
-    width: 95%;
-    background-color: rgba(240, 240, 240,0.65);
-    overflow: auto;
+.primePage img{
+    display: block;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
-    
-}
-.top{
-    margin-top: -1.5%;
-    padding-top: 1.75cm;
-    padding-bottom: 0.75cm;
-}
-.top li{
-    display: inline;
-    margin: 1%;
-    margin-top: 1cm;
-    
-}
-.top li a{
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-    
-}
-.top li a:hover{
-    color: rgb(255, 178, 34);
 }
 
-.slideshow li a img{
-    width: 20%;
-}
+/* benefit=========================== */
 
-
-.footer{
+.benefit{
+    display: block;
     width: 100%;
-    height: 1.5cm;
-    background-color: rgba(255, 211, 130,0.7);
+    margin-left: auto;
+    margin-right: auto;
 }
-.footer h1{
-    margin-left: 20px;
-    padding-top: 20px;
+
+.benefit-box{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.benefit .box-item{
+    background-color: rgba(255, 255, 255,0.7);
+    width: 45%;
+    float: left;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;margin-right: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+.benefit .box-item img{
+    width: 120px;
+    height: 80px;
+    display: block;
+    margin-left: auto;margin-right: auto;
+}
+.benefit .box-item h1{
+    display: block;
     font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.benefit .box-item p{
+    font-size: 17px;
+    text-align: center;
+}
+/* benefit=========================== */
+
+/* popular================================ */
+.popular{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.popular-box{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.popular .box-item{  
+    border-radius: 30px;
+    width: 300px;
+    height: auto;
+    margin-left: 10px;margin-right: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px  rgb(165, 164, 164);
+    float: left;
+    font-size: 17px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.popular .box-item img{
+    width: 100%;
+    height: 8cm;
+    transition: 0.2s;
+    padding-top: 25px;
+    display: block;
+}
+.popular .box-item img:hover{
+    transform: scale(1.2) translateZ(10px);
+}
+
+.popular .box-item a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    font-weight: bold;
+}
+.popular .box-item h1{
+    margin: 10px auto;
+}
+.popular .box-item p{
+    margin-bottom: 20px;
+}
+.popular .box-item h1 :hover{
+    color: orange;
+}
+
+/* new aririved================================================= */
+
+.new-arrived{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.new-arrived-box{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.new-arrived .box-item{  
+    border-radius: 30px;
+    width: 300px;
+    height: auto;
+    margin-left: 10px;margin-right: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px  rgb(165, 164, 164);
+    float: left;
+    font-size: 17px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.new-arrived .box-item h1{
+    margin: 10px auto;
+}
+
+.new-arrived .box-item img{
+    width: 100%;
+    height: 8cm;
+    transition: 0.2s;
+    padding-top: 25px;
+    display: block;
+}
+.new-arrived .box-item img:hover{
+    transform: scale(1.2) translateZ(10px);
+}
+
+.new-arrived .box-item a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    font-weight: bold;
+}
+.new-arrived .box-item p{
+    margin-bottom: 20px;
+}
+.new-arrived .box-item h1 :hover{
+    color: orange;
+}
+
+
+@media (max-width: 1000px){
+    .primePage img{
+        width: 100%;
+    }
+}
+
+/* benefit========================= */
+@media (min-width: 930px){
+    .benefit-box {
+        min-width: 800px;
+    }
+    .benefit-box .box-item{
+        width: 30%;
+        height: 250px;
+    }
+    .benefit .box-item img{
+        width: 120px;
+        height: 80px;
+        display: block;
+        margin-left: auto;margin-right: auto;
+    }
+    .benefit .box-item h1{
+        display: block;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-left: auto;margin-right: auto;
+        margin-top: 10px;
+        text-align: center;
+        float: left;
+    }
+    .benefit .box-item p{
+        font-size: 17px;
+        text-align: center;
+    }
+}
+/* benefit========================= */
+
+
+/* popular and new arrived================================ */
+@media (min-width: 930px){
+    .popular-box,.new-arrived-box {
+        min-width: 800px;
+    }
+    .popular-box .box-item,.new-arrived-box .box-item{
+        width: 30%;
+    }
 }
