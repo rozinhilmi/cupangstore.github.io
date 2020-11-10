@@ -5,16 +5,14 @@
     <meta charset="utf-8" />
     <title>Payment Form</title>
     <meta name="viewport" conice-width, initial-scale=1.0 />
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/css_reset.css">
     <link rel="stylesheet" href="css/pembayaran.css">
-
 </head>
 <body style="margin-top: 1cm;">
-
-
     <div class="header">
         <a href="#"><img src="images/logo.png" alt=""></a>
-    </div>  
-
+    </div>
     <div class="container">
         <div class="top">
             <ul>
@@ -22,75 +20,73 @@
                 <li><a href="services.html">SERVICES</a></li>
                 <li><a href="store.html"">STORE</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-            
+            </ul>     
         </div>
         <hr>
-        <div class="payment-list">
-            <div class="box-item">
-                <img src="images/img/11.jpeg" >    
-                <h1><a href="pembayaran.html">Plakat Yellow Fancy</a></h1>           
-                <p>103.000</p> 
-            </div>
-        </div>
-        <div class="body-form" style="margin-bottom: 1cm;">
-            <div class="garis-tepi"> </div>
-                <div class="panel-heading">      
-                        <center><h3>Payment Details</h3>
-                        <center>
-                            <img class="atm" src="images/kartu_kredit.png" >
-                        </center>        
+        <div class="payment-box">
+            <div class="payment-list">
+                <div class="box-item">
+                    <img src="images/img/11.jpeg" >    
+                    <h1><a href="pembayaran.html">Plakat Yellow Fancy</a></h1>           
+                    <p>103.000</p> 
                 </div>
-                <div class="panel-form">
-                    <form role="form">
-                        <div class="row">
-                                <div class="form-group">
-                                    <label style="margin-top: 0.45cm;">CARD NUMBER</label>
-                                    <div class="input-group">
-                                        <span><input type="tel" class="form-control" placeholder="Valid Card Number" /></span>
-                                        <!-- <span><img src="images/icon1.png" class="imggg" ></span> -->
+            </div>
+            <div class="body-form" style="margin-bottom: 1cm;">
+                <div class="garis-tepi"> </div>
+                    <div class="panel-heading">      
+                            <center><h3>Payment Details</h3>
+                            <center>
+                                <img class="atm" src="images/kartu_kredit.png" >
+                            </center>        
+                    </div>
+                    <div class="panel-form">
+                        <form role="form">
+                            <div class="row">
+                                    <div class="form-group">
+                                        <label style="margin-top: 0.45cm;">CARD NUMBER</label>
+                                        <div class="input-group">
+                                            <span><input type="tel" class="form-control" placeholder="Valid Card Number" /></span>
+                                            <!-- <span><img src="images/icon1.png" class="imggg" ></span> -->
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                    <div class="form-group">
+                                        <label>
+                                            <!-- <span class="hidden-xs">EXPIRATION</span> -->
+                                            <span class="visible-xs-inline">EXP</span> DATE</label>
+                                        <input type="tel" class="form-control" placeholder="MM / YY" />
+                                    </div>
+                                <div class="col-xs-5 col-md-5 pull-right">
+                                    <div class="form-group">
+                                        <label>CV CODE</label>
+                                        <input type="tel" class="form-control" placeholder="CVC" />
                                     </div>
                                 </div>
-                        </div>
+                            </div>
+                            <div class="row" >
+                                <div class="col-xs-12">
+                                    <div class="form-group">
+                                        <label>CARD OWNER</label>
+                                        <input type="text" class="form-control" placeholder="Card Owner Names" />
+                                        <p class="ganjel">hello</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="panel-footer">
                         <div class="row">
-                                <div class="form-group">
-                                    <label>
-                                        <!-- <span class="hidden-xs">EXPIRATION</span> -->
-                                        <span class="visible-xs-inline">EXP</span> DATE</label>
-                                    <input type="tel" class="form-control" placeholder="MM / YY" />
-                                </div>
-                            <div class="col-xs-5 col-md-5 pull-right">
-                                <div class="form-group">
-                                    <label>CV CODE</label>
-                                    <input type="tel" class="form-control" placeholder="CVC" />
-                                </div>
-                            </div>
+                            <button class="btn btn-warning btn-lg btn-block">Process payment</button>
                         </div>
-                        <div class="row" >
-                            <div class="col-xs-12">
-                                <div class="form-group">
-                                    <label>CARD OWNER</label>
-                                    <input type="text" class="form-control" placeholder="Card Owner Names" />
-                                    <p class="ganjel">hello</p>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="panel-footer">
-                    <div class="row">
-                        <button class="btn btn-warning btn-lg btn-block">Process payment</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Credit Card Payment Form - END -->
     <div class="footer">
         <h1>&copy; Copyright Hilmi-Fizal creative ecommerce</h1>
     </div>
-
-
+    
 </body>
 </html>
