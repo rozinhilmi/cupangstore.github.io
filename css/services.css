@@ -1,110 +1,62 @@
-.kategori{
-    width: 90%;
-    display: block;
-    margin-left: 3%;
-    height: 50px;
-    margin-bottom: 30px ;
-}
-.kategori h1{
-    font-size: 25px;
-    margin: 5px;
-}
-.kategori ul{
-    /* display: block; */
-    float: left;
-    width: 100%;
-}
-.kategori ul li{
+.middle{
+    width: 75%;
     background-color: white;
-    list-style: none;
-    float: left;
-    margin: 5px;
-    border-radius: 20px;
-}
-.kategori ul li a{
-    /* display: block; */
-    float: left;
-    color: rgb(63, 63, 63);
-    text-decoration: none;
-    padding: 5px 20px;
-}
-.kategori ul li :hover{    
-    background-color: grey;
-    color: white;
-    border-radius: 20px;
-}
-.kategori ul li.active a{
-    background-color:  rgb(255, 178, 34);
-    color: white;
-    border-radius: 20px;
-
-}
-
-.store{
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.store-box{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-.store .box-item{  
-    border-radius: 30px;
-    width: 300px;
-    height: auto;
-    margin-left: 10px;margin-right: 10px;
-    background-color: white;
+    overflow: auto;
+    /* float: left; */
+    margin-bottom: 2cm;
+    margin-left: 12%;
     box-shadow: 5px 5px 5px 5px  rgb(165, 164, 164);
-    float: left;
-    font-size: 17px;
-    color: rgb(116, 116, 116);
+}
+.middle h1{
+    font-size: 35px;
+    margin : auto;
     text-align: center;
-    line-height: 30px;
-    transition: 1s;
-    margin-bottom: 20px;
-}
-.store .box-item img{
-    width: 100%;
-    height: 8cm;
-    transition: 0.2s;
-    padding-top: 25px;
-    display: block;
-}
-.store .box-item img:hover{
-    transform: scale(1.2) translateZ(10px);
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
-.store .box-item a{
-    text-decoration: none;
-    text-align: center;
-    color: rgb(39, 39, 39);
-    font-size: 20px;
-    font-weight: bold;
-}
-.store .box-item h1{
-    margin: 10px auto;
-}
-.store .box-item p{
-    margin-bottom: 20px;
-}
-.store .box-item h1 :hover{
-    color: orange;
-}
-
-@media (min-width: 930px){
-    .store {
-        min-width: 800px;
-    }
-    .store .box-item{
-        width: 30%;
-    }
+.box-item{  
+    background-color: white;
+    width: 300px;
+    display: inline-flex;
+    margin-bottom: 4%;
+    border-style: solid;
+    padding: 3%;
     
+}
+.box-item p{
+    
+    color: rgb(59, 59, 59);
+    font-size: 15px;
+}
+.box-value-kiri{
+    width: 120%;
+    float: left;
+    
+}
+
+.box-value-kanan{
+    width: 40%;
+    float: left;
+    text-align: end;
+}
+
+.box-value-kiri img{
+   width: 200px;   
+}
+ .box-value-kanan img{
+    width: 100px;
+    transition: 8s;
+    
+}
+.box-value-kanan:hover img{
+    transform: rotate(3600deg);
+}
+.box-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+.cf:after {
+    clear: both;
 }
