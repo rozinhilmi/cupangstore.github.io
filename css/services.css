@@ -2,9 +2,7 @@
     width: 75%;
     background-color: white;
     overflow: auto;
-    /* float: left; */
-    margin-bottom: 2cm;
-    margin-left: 12%;
+    margin: 1cm auto;
     box-shadow: 5px 5px 5px 5px  rgb(165, 164, 164);
 }
 .middle h1{
