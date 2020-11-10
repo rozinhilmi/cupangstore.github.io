@@ -1,145 +1,46 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-body{
-    background-image: url("../images/ikan.jpg");
-}
-.header {
-    display: inline-block;
-    width: 100%;
-    border-style: solid;
-}
-.header img{
-    width: 250px;
-    margin-top: 50px;
-    margin: 50px;
-}
-.container{
-    width: 95%;
-    background-color: rgba(240, 240, 240,0.65);
-    overflow: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
-    
-}
-.top{
-    margin-top: -1.5%;
-    padding-top: 1.75cm;
-    padding-bottom: 0.75cm;
-}
-.top li{
-    display: inline;
-    margin: 1%;
-    margin-top: 1cm;
-    
-}
-.top li a{
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-    
-}
-.top li a:hover{
-    color: rgb(255, 178, 34);
-}
-.footer{
-    width: 100%;
-    height: 1.5cm;
-    background-color: rgba(255, 211, 130,0.7);
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
-.footer h1{
-    color: rgb(68, 68, 68);
-    margin-left: 20px;
-    padding-top: 20px;
-    font-size: 20px;
-}
-.middle{
-    height: 15cm;
-}
-.box-form{
-    background-color: white;
-    float: left;
-    /* menjadikan elemen div dengan float left berurutan ke arah kiri */
-    width: 90%;
-    margin-left: 5%;
-    box-shadow: 5px 5px 5px 5px  rgb(165, 164, 164);
-}
-.box-kiri{
-    width: 50%;
-    float: left;
-    margin-right: 5%;
-    margin-left: 5%;
-
-}
-.box-kiri img{
-    width: 100%;
-}
-.box-kanan h1{
-    font-size: 40px;
-    padding-bottom: 2%;
-}
-.box-kanan input,button{
-    display: block;
-    padding: 10px;
-    margin: 10px;
-    width: 100%;
-}
-.box-kanan button{
-    width: 107%;
-}
-.box-kanan{
-    margin-left: 3%;
-    padding-top: 10%;
-    float: left;
-
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/png" href="images/img/1.jpeg">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/css_reset.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <div class="header">
+        <a href="#"><img src="images/logo.png" alt=""></a>
+    </div>
+    <div class="container">
+        <div class="top">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="contact.html" style="color: rgb(255, 178, 34);">CONTACT</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="box-form">
+            <div class="box-kiri">
+                <img src="images/mail.png" alt="">
+            </div>
+            <div class="box-kanan">
+                <h1>Saran Dan Masukan</h1>
+                <form action="">
+                    <input type="name" placeholder="your name">
+                    <input type="email" placeholder="your email">
+                    <input type="subject" placeholder="subject">
+                    <input type="message" placeholder="message">
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>&copy; Copyright Hilmi-Fizal creative ecommerce</h1>
+    </div>
+</body>
+</html>
