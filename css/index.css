@@ -216,7 +216,7 @@
         width: 1200px;
     }
     .benefit .benefit-box,.popular-box .box-item,.new-arrived-box .box-item{
-        width: 320px;
+        width: 28%;
     }
     .popular .box-item img,.new-arrived-box .box-item img{
         height: 6cm;
