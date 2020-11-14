@@ -206,9 +206,7 @@
     .popular-box,.new-arrived-box {
         min-width: 800px;
     }
-    .container{
-        width: 1200px;
-    }
+    
     .benefit .benefit-box,.popular-box .box-item,.new-arrived-box .box-item{
         width: 320px;
     }
