@@ -12,7 +12,6 @@
     
 }
 .box-item{  
-    border-radius: 30px;
     width: 400px;
     height: auto;
     background-color: white;
@@ -175,3 +174,9 @@ line-height: 1.3333333;
 border-radius: 6px;
 }
 
+@media (max-width: 450px){
+    .payment-list, .body-form, .payment-list .box-item{
+        width: 100%;
+    }
+
+}
