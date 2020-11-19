@@ -62,9 +62,14 @@ body{
     font-size: 20px;
 }
 
-@media (min-width: 1183px){
+@media (min-width: 1200px){
     .container{
-        width: 1183px;
+        width: 1200px;
     }
 }
+@media (max-width: 450px){
+    .container{
+        width: 100%;
+    }
 
+}
