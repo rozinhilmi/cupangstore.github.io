@@ -24,7 +24,7 @@
 .kategori ul li a{
     /* display: block; */
     float: left;
-    color: rgb(63, 63, 63);
+    color: rgb(44, 44, 44);
     text-decoration: none;
     padding: 5px 20px;
 }
@@ -107,6 +107,34 @@
     }
     .store .box-item img{
         height: 6cm;
+    }
+}
+@media (min-width: 1140px){
+    .store .box-item{
+        width: 23%;
+    }
+    .store .box-item img{
+        height: 6cm;
+    }
+}
+
+@media (max-width: 462px){
+    .store-box {
+        width: 100%;
+    }
+    .store-box .box-item{
+        width: 46%;
+    }
+    .store .box-item img{
+        height: 3cm;
+    }
+}
+@media (max-width: 363px){
+    .store-box .box-item{
+        width: 55%;
+    }
+    .store-box .box-item img{
+        height: 3cm;
     }
     
 }
