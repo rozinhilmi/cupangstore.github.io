@@ -26,165 +26,89 @@
         <div class="kategori">
             <h1>Kategori</h1>
             <ul>
-                <li class="active" data-filter="*"><a href="#!">All</a></li>
-                <li data-filter=".bluefish"> <a href="#!">BlueFish</a></li>
-                <li data-filter=".redfish"><a href="#!">Redfish</a></li>
-                <li data-filter=".redandbluefish"><a href="#!">Red and Bluefish</a></li>
-                <li data-filter=".yellowfish"><a href="#!">Yellowfish</a></li>
+                <!-- <li class="active"><a href="#!" onclick="filter('all')">All</a></li> -->
+                <li><a href="#" onclick="filter('all');change_background(1)" class="ctg-all">All</a></li>
+                <li><a href="#!" onclick="filter('bluefish');change_background(2)" class="ctg-bluefish">BlueFish</a></li>
+                <li><a href="#!" onclick="filter('redfish');change_background(3)" class="ctg-redfish">Redfish</a></li>
+                <li><a href="#!" onclick="filter('redandbluefish');change_background(4)" class="ctg-redandbluefish">Red and Bluefish</a></li>
+                <li><a href="#!" onclick="filter('yellowfish');change_background(5)" class="ctg-yellowfish">Yellowfish</a></li>
             </ul>
         </div>
-        <!-- <div class="middle">
-            
-            <div class="box-item item bluefish">
-                <img src="images/img/1.jpeg" >    
-                <h1><a href="pembayaran.html">Cupang Plakat Avatar</a></h1>           
-                <p>194.000</p> 
-            </div>
-            <div class="box-item item redandbluefish">
-                <img src="images/img/2.jpeg" >    
-                <h1><a href="pembayaran.html">Cupang Plakat Candy</a></h1>           
-                <p>210.000</p> 
-            </div>
-            <div class="box-item item bluefish">
-                <img src="images/img/3.jpeg" >    
-                <h1><a href="pembayaran.html">Plakat BLue Rim</a></h1>           
-                <p>100.000</p> 
-            </div>
-            <div class="box-item item redandbluefish">
-                <img src="images/img/4.jpeg" >    
-                <h1><a href="pembayaran.html">Cupang Halfmoon Big Ear</a></h1>           
-                <p>120.000</p> 
-            </div>
-            <div class="box-item item redandbluefish">
-                <img src="images/img/5.jpeg" >    
-                <h1><a href="pembayaran.html">Cupang Halfmoon Rosetail</a></h1>           
-                <p>120.000</p> 
-            </div>
-            <div class="box-item item redfish">
-                <img src="images/img/6.jpeg" >    
-                <h1><a href="pembayaran.html">Cupang Halfmoon Rosetail Black</a></h1>           
-                <p>165.000</p> 
-            </div>
-            <div class="box-item item redandbluefish">
-                <img src="images/img/7.jpeg" >    
-                <h1><a href="pembayaran.html">Cupang Halfmoon Rosetail</a></h1>           
-                <p>120.000</p> 
-            </div>
-            <div class="box-item item bluefish">
-                <img src="images/img/8.jpeg" >    
-                <h1><a href="pembayaran.html">Cupang Halfmoon Mustard Gas</a></h1>           
-                <p>98.000</p> 
-            </div>
-            <div class="box-item item redfish">
-                <img src="images/img/9.jpeg" >    
-                <h1><a href="pembayaran.html">Cupang Halfmoon Red Cooper</a></h1>           
-                <p>147.000</p> 
-            </div>
-            <div class="box-item item yellowfish">
-                <img src="images/img/10.jpeg" >    
-                <h1><a href="pembayaran.html">Cupang Plakat Leopard</a></h1>           
-                <p>129.000</p> 
-            </div>
-            <div class="box-item item bluefish">
-                <img src="images/img/11.jpeg" >    
-                <h1><a href="pembayaran.html">Plakat Yellow Fancy</a></h1>           
-                <p>103.000</p> 
-            </div>
-            <div class="box-item item yellowfish">
-                <img src="images/img/12.jpeg" >    
-                <h1><a href="pembayaran.html">Cupang Halfmoon Pinnaple Bigear</a></h1>           
-                <p>88.000</p> 
-            </div>
-            <div class="box-item item redfish">
-                <img src="images/img/13.jpeg" >    
-                <h1><a href="pembayaran.html">Crowntail Super Red</a></h1>           
-                <p>151.000</p> 
-            </div>
-            <div class="box-item item bluefish">
-                <img src="images/img/14.jpeg" >    
-                <h1><a href="pembayaran.html">Halfmoon Butterfly</a></h1>           
-                <p>100.000</p> 
-            </div>
-            <div class="box-item item  redfish">
-                <img src="images/img/15.jpeg" >    
-                <h1><a href="pembayaran.html">Halfmoon Super Res</a></h1>           
-                <p>158.000</p> 
-            </div>
-        </div> -->
+
         <div class="store">
             <div class="store-box">
                 
-                <div class="box-item item bluefish">
+                <div class="box-item bluefish">
                     <img src="images/img/1.jpeg" >    
                     <h1><a href="pembayaran.html">Cupang Plakat Avatar</a></h1>           
                     <p>194.000</p> 
                 </div>
-                <div class="box-item item redandbluefish">
+                <div class="box-item redandbluefish">
                     <img src="images/img/2.jpeg" >    
                     <h1><a href="pembayaran.html">Cupang Plakat Candy</a></h1>           
                     <p>210.000</p> 
                 </div>
-                <div class="box-item item bluefish">
+                <div class="box-item bluefish">
                     <img src="images/img/3.jpeg" >    
                     <h1><a href="pembayaran.html">Plakat BLue Rim</a></h1>           
                     <p>100.000</p> 
                 </div>
-                <div class="box-item item redandbluefish">
+                <div class="box-item redandbluefish">
                     <img src="images/img/4.jpeg" >    
                     <h1><a href="pembayaran.html">Cupang Halfmoon Big Ear</a></h1>           
                     <p>120.000</p> 
                 </div>
-                <div class="box-item item redandbluefish">
+                <div class="box-item redandbluefish">
                     <img src="images/img/5.jpeg" >
                     <h1><a href="pembayaran.html">Cupang Halfmoon Rosetail</a></h1>           
                     <p>120.000</p> 
                 </div>
-                <div class="box-item item redfish">
+                <div class="box-item redfish">
                     <img src="images/img/6.jpeg" >    
                     <h1><a href="pembayaran.html">Cupang Halfmoon Rosetail Black</a></h1>           
                     <p>165.000</p> 
                 </div>
-                <div class="box-item item redandbluefish">
+                <div class="box-item redandbluefish">
                     <img src="images/img/7.jpeg" >    
                     <h1><a href="pembayaran.html">Cupang Halfmoon Rosetail</a></h1>           
                     <p>120.000</p> 
                 </div>
-                <div class="box-item item bluefish">
+                <div class="box-item bluefish">
                     <img src="images/img/8.jpeg" >    
                     <h1><a href="pembayaran.html">Cupang Halfmoon Mustard Gas</a></h1>           
                     <p>98.000</p> 
                 </div>
-                <div class="box-item item redfish">
+                <div class="box-item redfish">
                     <img src="images/img/9.jpeg" >    
                     <h1><a href="pembayaran.html">Cupang Halfmoon Red Cooper</a></h1>           
                     <p>147.000</p> 
                 </div>
-                <div class="box-item item yellowfish">
+                <div class="box-item yellowfish">
                     <img src="images/img/10.jpeg" >    
                     <h1><a href="pembayaran.html">Cupang Plakat Leopard</a></h1>           
                     <p>129.000</p> 
                 </div>
-                <div class="box-item item bluefish">
+                <div class="box-item bluefish">
                     <img src="images/img/11.jpeg" >    
                     <h1><a href="pembayaran.html">Plakat Yellow Fancy</a></h1>           
                     <p>103.000</p> 
                 </div>
-                <div class="box-item item yellowfish">
+                <div class="box-item yellowfish">
                     <img src="images/img/12.jpeg" >    
                     <h1><a href="pembayaran.html">Cupang Halfmoon Pinnaple Bigear</a></h1>           
                     <p>88.000</p> 
                 </div>
-                <div class="box-item item redfish">
+                <div class="box-item redfish">
                     <img src="images/img/13.jpeg" >    
                     <h1><a href="pembayaran.html">Crowntail Super Red</a></h1>           
                     <p>151.000</p> 
                 </div>
-                <div class="box-item item bluefish">
+                <div class="box-item bluefish">
                     <img src="images/img/14.jpeg" >    
                     <h1><a href="pembayaran.html">Halfmoon Butterfly</a></h1>           
                     <p>100.000</p> 
                 </div>
-                <div class="box-item item  redfish">
+                <div class="box-item  redfish">
                     <img src="images/img/15.jpeg" >    
                     <h1><a href="pembayaran.html">Halfmoon Super Res</a></h1>           
                     <p>158.000</p> 
@@ -195,4 +119,7 @@
     <div class="footer">
         <h1>&copy; Copyright Hilmi-Fizal creative ecommerce</h1>
     </div>
-</html>
+
+<script src="kategori.js"></script>
+</body>
+</html
