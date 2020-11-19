@@ -6,7 +6,7 @@
     box-shadow: 5px 5px 5px 5px  rgb(165, 164, 164);
 }
 .middle h1{
-    font-size: 35px;
+    font-size: 35px;    
     margin : auto;
     text-align: center;
     margin-bottom: 30px;
@@ -57,4 +57,10 @@
 }
 .cf:after {
     clear: both;
+}
+
+@media (max-width: 400px){
+    .middle h1{
+        font-size: 27px; 
+    }   
 }
