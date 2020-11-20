@@ -263,6 +263,9 @@
     .benefit .benefit-box{
         width: 100%;
     }
+    .slider img{
+        height: 200px;
+    }
 }
 
 @media (max-width: 363px){
@@ -271,6 +274,9 @@
     }
     .popular .box-item img,.new-arrived-box .box-item img{
         height: 3cm;
+    }
+    .slider img{
+        height: 180px;
     }
     
 }
