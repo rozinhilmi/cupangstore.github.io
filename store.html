@@ -4,34 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Store</title>
-    <link rel="icon" type="image/png" href="images/img/1.jpeg">
-    <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/css_reset.css">
     <link rel="stylesheet" href="css/store.css">
 </head>
 <body>
-    <div class="header">
-        <a href="#"><img src="images/logo.png" alt=""></a>
-    </div>
-    <div class="container">
-        <div class="top">
-            <ul>
+    <nav>
+        <div class="navContain">
+            <img id='logo' src="images/logo.png" alt="">
+            <ul id="navlink">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="services.html">SERVICES</a></li>
-                <li><a href="store.html" style="color: rgb(255, 178, 34);">STORE</a></li>
+                <li><a href="store.html"  style="color: rgb(255, 178, 34);">STORE</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
-            </ul>   
+            </ul>
         </div>
-        <hr>
+    </nav>
+    <div class="container">
+        
         <div class="kategori">
             <h1>Kategori</h1>
             <ul>
                 <!-- <li class="active"><a href="#!" onclick="filter('all')">All</a></li> -->
-                <li><a href="#" onclick="filter('all');change_background(1)" class="ctg-all">All</a></li>
-                <li><a href="#!" onclick="filter('bluefish');change_background(2)" class="ctg-bluefish">BlueFish</a></li>
-                <li><a href="#!" onclick="filter('redfish');change_background(3)" class="ctg-redfish">Redfish</a></li>
-                <li><a href="#!" onclick="filter('redandbluefish');change_background(4)" class="ctg-redandbluefish">Red and Bluefish</a></li>
-                <li><a href="#!" onclick="filter('yellowfish');change_background(5)" class="ctg-yellowfish">Yellowfish</a></li>
+                <li><a onclick="filter('all','a.ctg-all')" class="ctg-all">All</a></li>
+                <li><a onclick="filter('bluefish','a.ctg-bluefish')" class="ctg-bluefish">BlueFish</a></li>
+                <li><a onclick="filter('redfish','a.ctg-redfish')" class="ctg-redfish">Redfish</a></li>
+                <li><a onclick="filter('redandbluefish','a.ctg-redandbluefish')" class="ctg-redandbluefish">Red and Bluefish</a></li>
+                <li><a onclick="filter('yellowfish','a.ctg-yellowfish')" class="ctg-yellowfish">Yellowfish</a></li>
             </ul>
         </div>
 
@@ -122,4 +120,4 @@
 
 <script src="kategori.js"></script>
 </body>
-</html
+</html>
