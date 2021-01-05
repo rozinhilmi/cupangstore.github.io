@@ -1,3 +1,4 @@
+
 .payment-box{
     width: 100%;
     height: auto;
@@ -179,4 +180,9 @@ border-radius: 6px;
         width: 100%;
     }
 
+}
+@media (max-width: 1000px){
+    .container{
+        height: auto;
+    }
 }
