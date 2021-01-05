@@ -1,3 +1,6 @@
+.container{
+    height: auto;
+}
 .kategori{
     width: 90%;
     display: block;
@@ -27,18 +30,19 @@
     color: rgb(44, 44, 44);
     text-decoration: none;
     padding: 5px 20px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
-.kategori ul li :hover{    
+.kategori ul li a:hover{    
     background-color: grey;
     color: white;
     border-radius: 20px;
 }
-.kategori ul li.active a{
-    background-color:  rgb(255, 178, 34);
-    color: white;
-    border-radius: 20px;
 
-}
 
 .store{
     display: block;
@@ -46,14 +50,14 @@
     margin-left: auto;
     margin-right: auto;
 }
-.store-box{
+.store-box {
     width: 100%;
     height: auto;
     margin: 0 auto;
     display: block;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 .store .box-item{  
@@ -67,7 +71,7 @@
     color: rgb(116, 116, 116);
     text-align: center;
     line-height: 30px;
-    transition: 1s;
+    transition: 2s;
     margin-bottom: 20px;
 }
 .store .box-item img{
@@ -103,18 +107,10 @@
         min-width: 800px;
     }
     .store .box-item{
-        width: 28%;
+        width: 21%;
     }
     .store .box-item img{
-        height: 6cm;
-    }
-}
-@media (min-width: 1140px){
-    .store .box-item{
-        width: 23%;
-    }
-    .store .box-item img{
-        height: 6cm;
+        height: 4cm;
     }
 }
 
