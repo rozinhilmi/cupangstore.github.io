@@ -138,8 +138,8 @@ nav{
 	}
 }	
 @media (max-width: 350px){
-	#logo{
-		width: 120px;
+	#navlink{
+		font-size: 5px;
 	}
 }	
 	
