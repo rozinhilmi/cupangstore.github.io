@@ -137,6 +137,11 @@ nav{
 		width: 150px;
 	}
 }	
+@media (max-width: 350px){
+	#logo{
+		width: 120px;
+	}
+}	
 	
 @media (max-width: 865px){
 	.navContain{
