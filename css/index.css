@@ -28,11 +28,14 @@
     margin: auto;
 }
 .link{
-    font-size: 50px;
+    width: 30%;
+    font-size: 100%;
     text-decoration: none;
     color: white;
     background-color: rgba(24, 59, 112, 0.479);
     border-radius: 20px;
+    padding: 0.5cm;
+    box-sizing: border-box;
 }
 
 .primePage img{
