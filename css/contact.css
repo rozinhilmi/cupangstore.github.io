@@ -55,10 +55,8 @@
 
 @media (max-width: 700px){
     .box-kanan,.box-kiri{
-        width: 70%;
+        width: 600px;
     }
-}
-@media (max-width: 479px){
     .box-kanan{
         width: 120%;
     }
