@@ -1,3 +1,8 @@
+
+.container{
+    height: auto;
+    padding-top: 2cm;
+}
 .middle{
     width: 90%;
     background-color: white;
