@@ -1,0 +1,148 @@
+/* body img {
+  filter: brightness(50%);
+} */
+
+.carousel-inner {
+  width: 98vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boxCard,
+.middleCard,
+.middleChild,
+.childCard,
+.centerCard,
+.centerChild {
+  background-size: cover;
+  background-position: center;
+  filter: brightness(95%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  filter: brightness(100%);
+}
+.middleChild:hover,
+.childCard:hover,
+.centerChild:hover {
+  filter: brightness(80%);
+}
+.boxCard {
+  display: flex;
+  width: 98vw;
+  height: 98vw;
+  background-color: rgb(167, 167, 167);
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../asset/img/mainPage/Fatima_Series.jpg');
+}
+
+.boxCard h1 {
+  margin: auto;
+  color: white;
+  font-size: 60px;
+}
+
+.middleCard {
+  display: flex;
+  width: 98vw;
+  height: 49vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.middleCard h1 {
+  margin: auto;
+  color: white;
+}
+
+.middleChild {
+  display: flex;
+  width: 49vw;
+  height: 49vw;
+}
+.middleChild h1 {
+  margin: auto;
+  color: white;
+  font-size: 45px;
+}
+.middleCard .middleChild .childCard {
+  display: flex;
+  width: 24.5vw;
+  height: 24.5vw;
+}
+.middleCard .middleChild .childCard h1 {
+  margin: auto;
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 547px) {
+  .boxCard h1,
+  .middleChild h1 {
+    font-size: 28px;
+  }
+}
+
+.centerCard {
+  display: flex;
+  width: 98vw;
+  height: 24.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centerChild {
+  display: flex;
+  width: 49vw;
+  height: 24.5vw;
+}
+.centerChild a {
+  margin: auto;
+}
+.centerChild h1 {
+  color: white;
+  font-size: 30px;
+}
+
+@media (min-width: 1024px) {
+  .carousel-inner {
+    width: 1024px;
+    height: 640px;
+  }
+
+  .boxCard {
+    width: 1024px;
+    height: 1024px;
+  }
+  .middleCard {
+    width: 1024px;
+    height: 512px;
+  }
+
+  .middleChild {
+    width: 512px;
+    height: 512px;
+  }
+  .middleCard .middleChild .childCard {
+    width: 256px;
+    height: 256px;
+  }
+
+  .centerCard {
+    width: 1024px;
+    height: 256px;
+  }
+  .centerChild {
+    height: 256px;
+  }
+}
+
+@media (max-width: 600px) {
+  .centerCard {
+    flex-wrap: wrap;
+  }
+  .centerChild {
+    width: 49vw;
+    height: 49vw;
+  }
+}
